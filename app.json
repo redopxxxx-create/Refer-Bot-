@@ -1,0 +1,13 @@
+{
+  "name": "ott-refer-telegram-bot",
+  "description": "Referral + force-sub Telegram bot with temp links",
+  "repository": "https://github.com/yourname/Refer-Bot-",
+  "keywords": ["telegram", "bot", "referral", "aiogram", "heroku"],
+  "env": {
+    "BOT_TOKEN": {"description": "Telegram bot token"},
+    "OWNER_ID": {"description": "Telegram numeric owner id", "required": false},
+    "FORCE_SUB_CHANNELS": {"description": "Comma separated channel IDs", "required": false},
+    "TEMP_LINK_CHANNEL": {"description": "Channel ID for temp links", "required": false},
+    "DATABASE_URL": {"description": "SQLite filename", "value": "bot.db", "required": false}
+  }
+}
